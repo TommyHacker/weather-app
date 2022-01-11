@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background-image: url("https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weather-container {
+  z-index: 1;
+  height: 400px;
+  width: 300px;
+  background: rgba(20, 20, 20, 0.616);
+  color: #e7e7e7;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translatex(-50%);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.weather-container .temp {
+  border: solid rgba(255, 255, 255, 0.425) 0.5px;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20pt;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: absolute;
+  bottom: 5vh;
+  left: 50vw;
+  transform: translatex(-50%);
+}
+form input {
+  padding: 5px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  max-width: 25vw;
+}
+form button {
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
